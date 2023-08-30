@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@200;400&family=Roboto:wght@400;700&display=swap');
+
+/* html, body {
+    font-size: 16px;
+}
+footer {
+    background-color: rgba(201, 249, 202, 0.547);
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 1em;
+}
+    
+footer > span {
+    color: rgba(68, 68, 104, 0.712);
+    font-size: 1em;;
+}
+
+h1 {
+    font-size: 0.6em;
+    font-family: 'Lato', sans-serif;
+    color: #F95235;
+    font-weight: 500;
+
+    > i {
+        margin-right: 10px;
+    }
+
+}
+
+
+.about-company{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.small-image {
+    height: 100px;
+}
+.medium-image {
+    height: auto;
+    width: 20%;
+    
+
+}
+
+.large-image {
+    height: 300px;
+} */
+
+
+
+html {
+   width: 70%;
+   display: flex;
+   flex-direction:column;
+   margin: auto;
+   /* width: 80%; */
+}
+
+header {
+    background-color: rgba(212, 248, 222, 0.539);
+    display: flex;
+     justify-content: space-between; 
+
+    > nav {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 10px;
+        > a {
+            /* display: inline-block;
+            justify-content: space-evenly; */
+            display: inline-block;
+            position: relative;
+            padding: 1em;
+            text-decoration: none;
+
+            
+        }
+    }
+}
+
+
+footer {
+    background-color: rgba(212, 248, 222, 0.539);
+    
+}
+
+.logotyp {
+    height: auto;
+    width: 15%;
+    margin: 20px 20px;
+    border-radius: 15%;
+}
+
+.img-wide {
+    height: 200px;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.image-inline {
+    display: inline;
+}
+
+.small-image {
+    height:auto;
+    width: 20%;
+}
+
+.image-round-corners{
+    border-radius: 50%;
+}
+
+.inline-justify-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 20px;
+}
+
+section {
+    background-color: rgb(239, 247, 254);
+}
+article {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    > p {
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        max-width: 35%;
+        line-height: 1.6;
+    }
+        > img {
+            margin-right: 40px;
+        }
+}
+
